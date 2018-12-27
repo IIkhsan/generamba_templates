@@ -1,0 +1,25 @@
+# Template information section
+name: "clean_swift"
+version: "0.1.1"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+# Presenter layer
+- {name: Presenter.swift, path: Code/presenter.swift.liquid}
+
+# Interactor layer
+- {name: Interactor.swift, path: Code/interactor.swift.liquid}
+
+# Router layer
+- {name: Router.swift, path: Code/router.swift.liquid}
+
+# Models layer
+- {name: Models.swift, path: Code/models.swift.liquid}
+
+# Worker layer
+- {name: Worker.swift, path: Code/worker.swift.liquid}
+
+# View layer
+- {name: ViewController.swift, path: Code/viewcontroller.swift.liquid}

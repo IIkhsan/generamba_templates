@@ -1,0 +1,32 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+
+//Rout to destination controller name
+@objc protocol {{ module_info.name }}RoutingLogic {
+	
+
+}
+
+protocol {{ module_info.name }}DataPassing {
+	
+}
+
+final class {{ module_info.name }}Router: NSObject, {{ module_info.name }}RoutingLogic, {{ module_info.name }}DataPassing {
+	weak var viewController: {{ module_info.name }}ViewController?
+	var dataStore: {{ module_info.name }}DataPassing
+
+	//MARK: Routing
+
+
+	//MARK: Navigation
+
+
+	//MARK: Passing data
+}
